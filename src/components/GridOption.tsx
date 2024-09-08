@@ -15,7 +15,7 @@ const GridOption = ({
   return (
     <Link
       href={{
-        pathname: "/",
+        pathname: "/search",
         query: { q: title },
       }}
       className={cn("grid-option relative", className)}
